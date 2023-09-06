@@ -1,0 +1,115 @@
+.car__overlay {
+
+}
+.car {
+    border-radius: 24px;
+    background-color: var(--color-white);
+}
+.car__article-block {
+    margin: 40px auto 40px auto;
+    width: 461px;
+}
+.car__image-block {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.car__image-link {
+    padding-top: 40px;
+    text-decoration: none;
+}
+.car__image {
+    border-radius: 14px;
+    background: var(--background-image);
+}
+.car__description-block {
+
+}
+.car__name-text {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-black);
+}
+.car__characteristic {
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 4px;    
+}
+.car__characteristic-text {
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0.7; /* 150% */
+    color: rgba(18, 20, 23, 0.50);
+}
+.car__description {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0.7; /* 142.857% */
+    color: var(--color-black);
+}
+.car__text {
+    font-weight: 500;
+}
+.car__accessories {
+
+}
+.car__accessories-text {
+
+}
+.car__rental {
+
+}
+.car__rental-block {
+    padding: 7px 14px;
+    width: 279px;
+    height: 32px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 8px;
+}
+.car__rental-text {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0.7; /* 150% */
+    letter-spacing: -0.24px;
+    color: var(--color-gray);
+}
+.car__description, .car__text {
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 0.7; /* 142.857% */
+    color: var(--color-black);
+}
+.car__btn-block {
+    margin-top: 31px;
+    padding-bottom: 40px;
+}
+.car__btn {
+    padding: 12px 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px solid var(--color-blue);
+    background-color: var(--color-blue);
+}
+.car__btn-text {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0.7; /* 142.857% */
+    color: var(--color-white);
+}

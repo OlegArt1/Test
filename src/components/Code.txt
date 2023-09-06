@@ -1,0 +1,37 @@
+
+// Form
+{/*<form className={css.form} onSubmit={handleSubmit}>
+    <input className={css.field} type="text" name="name" placeholder="Enter task text..."/>
+    <Button type="submit">Add task</Button>
+</form>*/}
+
+// Contact
+{/*
+    <div className={css.wrapper}>
+        <input type="checkbox" className={css.checkbox} checked={task.completed} onChange={handleToggle}/>
+        <p className={css.text}>{task.username}</p>
+        <button className={css.btn} onClick={handleDelete}>
+            <MdClose size={24}/>
+        </button>
+    </div>
+*/}
+
+// Contact List
+{/*
+    <ul className={css.list}>
+        {tasks.map(task =>
+        (
+            <li className={css.listItem} key={task.id}>
+                <Task task={task}/>
+            </li>
+        ))}
+    </ul>
+*/}
+
+// 1
+/*
+    if (filteredContacts.some(value => value.username.toLocaleLowerCase() === text_name.toLocaleLowerCase()))
+    {
+        return alert(`${text_name} is already in contacts.`);
+    }
+*/
