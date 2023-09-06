@@ -1,13 +1,7 @@
-import { useDispatch } from "react-redux";
-import { deleteContact } from "redux/operations";
 import css from "./CarList.module.css";
 
-export const ContactListItem = ({ model }) =>
+export const CarListItem = ({ model }) =>
 {
-    // const dispatch = useDispatch();
-
-    // const handleDelete = () => dispatch(deleteContact(model.id));
-
     return (
         <div className={css.car__overlay}>
             <div className={css.car}>
