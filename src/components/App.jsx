@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchContacts } from "redux/operations";
 import { selectError, selectIsLoading } from "redux/selectors";
 import { Layout } from "components/Layout/Layout";
-import { ContactList } from "components/ContactList/CarListItem";
+import { CarList } from "components/CarList/CarListItem";
 import Css from "./App.module.css";
 
 export let name_text = '';
@@ -24,7 +24,7 @@ export const App = () =>
     return (
         <Layout>
             {isLoading && !error && <b className={Css.text_error}>Request in progress...</b>}
-            <ContactList/>
+            <CarList/>
         </Layout>
     );
 };
