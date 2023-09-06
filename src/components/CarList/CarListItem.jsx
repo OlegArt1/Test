@@ -1,5 +1,5 @@
 import { useContacts } from "hooks";
-import { CarListItem } from "components/ContactList/CarList";
+import { CarListItem } from "components/CarList/CarList";
 import Css from "./CarList.module.css";
 
 export const CarList = () =>
